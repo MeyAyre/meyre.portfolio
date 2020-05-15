@@ -1,0 +1,80 @@
+body{
+    background: rgba(40, 93, 232, 0.75);
+}
+
+nav{
+    display: flex;
+    align-items: center;
+}
+nav > ul {
+    list-style: none;
+    font-size: 1.5rem;
+    display: flex;
+}
+
+nav > ul > li {
+    margin: 2rem;
+    border: solid black ;
+    padding: 0.3rem;
+    text-decoration: none;
+}
+
+.header-text{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 5rem;
+}
+.right{
+margin-left: 20%;
+}
+
+.flex-row{
+ margin-top: 7%;
+ margin-bottom: 5%;
+}
+
+.c-ard{
+    background: #ECE5E5;
+    border: solid black;
+    width: 60%;
+    background-image: radial-gradient(#212121 20%, transparent 20%), radial-gradient(#212121 20%, transparent 20%);
+    background-position: 0 0, 50px 50px;
+    background-size: 100px 100px;
+    padding: 1%;
+}
+.card-tag{
+    width: 25%;
+    background: red;
+    text-align: center;
+    margin: 0.5%;
+    border-radius: 3px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+#live-client{
+
+}
+
+#teardown{
+
+}
+
+#blog{
+
+}
+
+#case-study{
+
+}
+
+.card-img{
+    width: 300px;
+    height: 300px;
+}
+
+.card-text-link{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bolder;
+    font-size: 2rem;
+    text-align: center;
+    background: #ECE5E5;
+}
