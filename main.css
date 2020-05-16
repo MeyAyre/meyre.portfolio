@@ -8,7 +8,7 @@ header{
     margin-left: 5%;
 }
 nav{
-    margin-left: 50%;
+    margin-left: 60%;
 }
 nav > ul {
     list-style: none;
@@ -25,7 +25,11 @@ nav > ul > li {
 
 .header-text{
     font-family: 'Quicksand', sans-serif;
-    font-size: 5rem;
+    font-size: 5.5rem;
+}
+#main-img{
+    width: 500px;
+    height: 500px;
 }
 .right{
 margin-left: 20%;
