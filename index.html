@@ -5,6 +5,7 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
         <link rel="stylesheet" href="main.css">
         <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap" rel="stylesheet">
         <!-- JS, Popper.js, and jQuery -->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
@@ -12,7 +13,7 @@
     </head>
     <body>
         <header>
-            <p>Mei Eyre</p>
+            <p>Mei'lani Eyre</p>
             <nav>
                 <ul>
                     <li>Work</li>
@@ -32,44 +33,62 @@
                 <p class="header-text">I'm Mei.</p>
             </div>
         </div>
-        <main class="container">
-            <div class="d-flex flex-row justify-content-start">
-                <div class="c-ard">
-                    <p class="card-tag">Live Client</p>
-                    <img class="card-img" src="public/images/temp.jpg">
-                    <p class="card-text-link">GitHub</p>
+        <main class="container-fluid">
+            <div class="d-flex flex-row justify-content-start content-row ">
+                <div class="intro-card">
+                    <p>I'm a UX designer with experience in accessibility, software engineering, and CS education.</p>
+                        
+                    <p>Having worked with 
+                        Code.org, the GitHub Education team, and TA'd with Girls Who Code, my interests are largely held within the realm of CS 
+                        education for K-12 and higher ed. 
+                    </p>
                 </div>
                 <div class="c-ard right">
-                    <p class="card-tag">Case Study</p>
-                    <img class="card-img" src="public/images/temp.jpg">
+                    <p class="card-tag" id="case-study">Case Study</p>
+                    <img class="card-img" src="public/images/classroom.jpg">
                     <p class="card-text-link">Personalizing healthcare for Black mothers in the US</p>
+                    <p class="card-small-text">Cascadia College</p>
                 </div>
             </div>
-            <div class="d-flex flex-row justify-content-start">
+            <div class="d-flex flex-row justify-content-start content-row">
                 <div class="c-ard">
-                    <p class="card-tag">Live Client</p>
-                    <img class="card-img" src="public/images/temp.jpg">
-                    <p class="card-text-link">Building a better world for students at GitHub </p>
+                    <p class="card-tag" id="live-client">Live Client</p>
+                    <img class="card-img" src="public/images/gallery.jpg">
+                    <p class="card-text-link">Building a better world for students </p>
+                    <p class="card-small-text">GitHub Education</p>
                 </div>
                 <div class="c-ard right">
-                    <p class="card-tag">UX Teardown</p>
-                    <p class="card-tag">Live Client</p>
+                    <p class="card-tag " id="teardown">UX Teardown</p>
+                    <p class="card-tag" id="live-client">Live Client</p>
                     <img class="card-img" src="public/images/classroom.jpg">
                     <p class="card-text-link">Refreshing crucial tools for teachers</p>
+                    <p class="card-small-text">GitHub Classroom</p>
                 </div>
             </div>
-            <div class="d-flex flex-row justify-content-start">
+            <div class="d-flex flex-row justify-content-start content-row">
                 <div class="c-ard">
-                    <p class="card-tag">Blog</p>
-                    <img class="card-img" src="public/images/failure_blog.png">
-                    <p class="card-text-link">Let’s talk about “failure”:
-                        What to do when you don’t get an internship</p>
+                    <p class="card-tag" id="blog">Blog</p>
+                    <a href="https://medium.com/@meyrehay/lets-talk-about-failure-what-to-do-when-you-don-t-get-an-internship-offer-61ecb5dd5019" target="_blank">
+                        <img class="card-img" src="public/images/failure_blog.png">
+                        <p class="card-text-link">Let’s talk about “failure”:
+                            What to do when you don’t get an internship</p>
+                    </a>
                 </div>
                 <div class="c-ard right">
-                    <p class="card-tag">Case Study</p>
-                    <img class="card-img" src="public/images/temp.jpg">
-                    <p class="card-text-link">Creating order for clients in therapy</p>
+                    <p class="card-tag" id="case-study">Case Study</p>
+                    <img class="card-img" src="public/images/goat_thoughts.jpg">
+                    <p class="card-text-link">Creating order for clients in therapy</p>
+                    <p class="card-small-text">Goat Thoughts</p>
                 </div>
+            </div>
+
+            <div class="jumbotron">
+                <h2>Let's keep in touch</h2>
+                <ul>
+                    <li>GitHub</li>
+                    <li>Medium</li>
+                    <li>LinkedIn</li>
+                </ul>
             </div>
         </main>
     </body>
