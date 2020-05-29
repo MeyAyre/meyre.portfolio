@@ -2,8 +2,8 @@ body{
     background: rgba(40, 93, 232, 0.75);
 }
 a{
-    text-decoration: none;
-    color: black;
+    text-decoration: none !important;
+    color: black !important;
 }
 header{
     display: flex;
@@ -94,7 +94,7 @@ margin-left: 10%;
 }
 
 #case-study{
-    background-color: #E2CC04;
+    background-color: #FFE600;
 }
 
 .card-img{
@@ -111,4 +111,30 @@ margin-left: 10%;
     font-size: 2rem;
     text-align: center;
     background: #ECE5E5;
+}
+
+.page-header{
+    width: 90%;
+    margin: 0 auto;
+    font-size: 40px;
+    line-height: 10rem;
+}
+.page-header-text{
+    font-size: 150px;
+    line-height: 17rem;
+}
+
+.project-details{
+    background-color: orange;
+    width: 80%;
+    margin-right: 5%;
+}
+
+.project-overview{
+    width: 100%;
+}
+
+.project-overview-details{
+    background-color: orange;
+    width:100%;
 }
