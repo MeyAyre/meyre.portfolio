@@ -1,3 +1,26 @@
 body{
     background-color: white !important;
 }
+
+.bna{
+    background-color: black;
+    margin: 0 auto;
+    width: 100%;
+    padding: 5%;
+}
+.before-n-after{
+    margin-right: 5%;
+    width: 50%;
+    text-align: center;
+}
+
+.before-n-after-text{
+    color: white;
+    font-size: 3rem !important;
+    margin-bottom: 4%;
+}
+
+.before-n-after-img{
+    max-width: 100%;
+
+}

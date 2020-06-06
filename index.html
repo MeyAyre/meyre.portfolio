@@ -10,13 +10,18 @@
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/svg-injector/1.1.3/svg-injector.min.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <header>
             <h1>Mei'lani Eyre</h1>
             <nav>
                 <ul>
-                    <li>Work</li>
+                    <li>
+                        <a href="index.html">
+                            Work
+                        </a> 
+                    </li>
                     <li>Resume</li>
                     <li>About Me</li>
                 </ul>
@@ -60,9 +65,11 @@
                 <div class="c-ard right">
                     <p class="card-tag " id="teardown">UX Teardown</p>
                     <p class="card-tag" id="live-client">Live Client</p>
-                    <img class="card-img" src="public/images/classroom.jpg">
-                    <p class="card-text-link">Refreshing crucial tools for teachers</p>
-                    <p class="card-small-text">GitHub Classroom</p>
+                    <a href="classroom.html">
+                        <img class="card-img" src="public/images/classroom.jpg">
+                        <p class="card-text-link">Refreshing crucial tools for teachers</p>
+                        <p class="card-small-text">GitHub Classroom</p>
+                    </a>
                 </div>
             </div>
             <div class="d-flex flex-row justify-content-start content-row">
@@ -82,12 +89,24 @@
                 </div>
             </div>
 
-            <div class="jumbotron">
-                <h2>Let's keep in touch</h2>
-                <ul>
-                    <li>GitHub</li>
-                    <li>Medium</li>
-                    <li>LinkedIn</li>
+            <div class="social-card">
+                <h2>Let's keep in touch :)</h2>
+                <ul class="social">
+                    <li>
+                        <a href="https://github.com/MeyAyre" target="_blank">
+                            <img class="inject-me social-box" src="github-image.svg">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://medium.com/@meyrehay" target="_blank">
+                            <img class="inject-me social-box" src="medium.svg">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/meilanieyre/" target="_blank">
+                            <img class="inject-me social-box" src="linkedin.svg">
+                        </a>
+                    </li>
                 </ul>
             </div>
         </main>

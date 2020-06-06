@@ -10,10 +10,17 @@ header{
     align-items: center;
     margin-left: 5%;
 }
+
+header h1{
+    background-color: #ECE5E5;
+    padding: 1%;
+    margin-left: 0;
+    font-size: 2rem;
+}
 nav{
     margin-left: 60%;
 }
-nav > ul {
+nav > ul, .social {
     list-style: none;
     font-size: 1rem;
     display: flex;
@@ -113,6 +120,31 @@ margin-left: 10%;
     background: #ECE5E5;
 }
 
+.card-small-text{
+    font-size: 1.4rem;
+}
+
+.social-card{
+    margin: 0 auto;
+    width: 32%;
+    background: #ECE5E5;
+    padding: 2%;
+    text-align: center;
+    border-radius: 1rem;
+}
+
+.social{
+    margin-top: 5%;
+}
+
+.social-box{
+    height: 64px;
+    width: 64px;
+    margin: 2rem;
+    padding: 0.3rem;
+    text-decoration: none;
+}
+
 .page-header{
     width: 90%;
     margin: 0 auto;
@@ -128,13 +160,17 @@ margin-left: 10%;
     background-color: orange;
     width: 80%;
     margin-right: 5%;
+    padding: 2%;
 }
 
 .project-overview{
     width: 100%;
+    
 }
 
 .project-overview-details{
     background-color: orange;
-    width:100%;
+    width:90%;
+    padding: 3%;
+    margin-top: 2%;
 }
