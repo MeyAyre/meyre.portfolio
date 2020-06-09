@@ -2,6 +2,35 @@ body{
     background-color: white !important;
 }
 
+.jumbotron{
+    max-width: 100%;
+}
+
+.work-container{
+    margin-bottom: 5%;
+}
+
+.process{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.process h3{
+    font-size: 3rem;
+}
+
+.project-overview h2{
+    font-size: 3rem;
+}
+.ux-teardown{
+    margin-top: 5%;
+}
+
+.copy{
+    background-color: blanchedalmond;
+    padding: 5%;
+}
+
 .bna{
     background-color: black;
     margin: 0 auto;
@@ -16,7 +45,8 @@ body{
 
 .before-n-after-text{
     color: white;
-    font-size: 3rem !important;
+    font-size: 2rem !important;
+    font-family: 'Quicksand', sans-serif;
     margin-bottom: 4%;
 }
 

@@ -16,9 +16,10 @@ header h1{
     padding: 1%;
     margin-left: 0;
     font-size: 2rem;
+    width: 10%;
 }
 nav{
-    margin-left: 60%;
+    margin-left: 50%;
 }
 nav > ul, .social {
     list-style: none;
@@ -150,14 +151,22 @@ margin-left: 10%;
     margin: 0 auto;
     font-size: 40px;
     line-height: 10rem;
+    margin-bottom: 0%;
 }
 .page-header-text{
+    margin-top: 5%;
     font-size: 150px;
     line-height: 17rem;
 }
 
+.role-details{
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: 'Quicksand', sans-serif;
+}
+
 .project-details{
-    background-color: orange;
+    background-color: #FDBA0D;
     width: 80%;
     margin-right: 5%;
     padding: 2%;
@@ -169,8 +178,14 @@ margin-left: 10%;
 }
 
 .project-overview-details{
-    background-color: orange;
+    border: thick black solid;
+    box-shadow: 40px 50px #FDBA0D;
     width:90%;
     padding: 3%;
     margin-top: 2%;
+}
+
+.work-header{
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 2%;
 }
