@@ -41,6 +41,10 @@ nav > ul > li {
     font-family: 'Quicksand', sans-serif;
     font-size: 5.5rem;
 }
+.responsive-img{
+    max-width: 90%;
+    width: 80%;
+}
 #main-img{
     width: 500px;
     height: 500px;
@@ -188,4 +192,29 @@ margin-left: 10%;
 .work-header{
     font-family: 'Quicksand', sans-serif;
     margin-bottom: 2%;
+}
+
+.problem{
+    background-color: blanchedalmond;
+    padding: 7%;
+    margin-bottom: 0;
+    width: 100vw;
+    margin-left: 0vw;
+    margin-top: 100px;
+    left: 50%;
+}
+
+#the-problem{
+    font-weight: 500;
+    color: #010101;
+}
+
+#problem-statement{
+    font-size: 2.5rem;
+    margin-bottom: 3%;
+}
+
+.problem-casing{
+    margin: 0 auto;
+    font-size: 1.90rem;
 }
